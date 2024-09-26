@@ -1,0 +1,791 @@
+---
+created: 2023-12-25 11:06:57
+updated: 2023-12-26 11:04:54
+draft: false
+tags:
+- 物理
+- 期末
+title: Physics I 复习提纲
+---
+
+# Physics I 复习提纲
+
+## 力学
+
+**机械运动的几种典型理想模型**
+
+（1）质点模型：当物体的线度（大小和几何形状）对所研究物体运动状态的影响可以忽略不计时，用一个集中了物体所有质量的数学点来代表物体的运动状态，该点称为质点。
+
+（2）刚体模型：当物体的形变对其运动状态的影响可以忽略不计时，将物体看作为一个不发生形变的几何体
+
+(3) 谐振子模型：当物体收受合外力可以近似为 F=-kx 时，称该物体的运动为简谐振动
+
+(4) 简谐波模型：介质传播机械波可以近似地看作为简谐振动在媒质中的传播，且弹性介质无阻尼或能量吸收（波在传递过程中保持振幅不变），这种机械波称为简谐波，该模型称简谐波模型
+
+### 质点力学 
+
+#### 瞬时效应
+**描述一般曲线运动的线参量**: 
+	位置矢量、位移矢量、速度矢量和加速度矢量
+
+**位置矢量的特征**: 
+	相对性 参照系
+	瞬时性 - 时刻 t 
+	矢量性 大小、方向、 运算法则
+
+**轨道方程**:
+	质点在空间运动时的轨迹方程，称为轨道方程
+
+**惯性**:
+	物体保持其相对静止或匀速运动状态的内属性
+	牛顿力学适用的条件：惯性系
+
+**牛顿第二定律**
+	**瞬时性**：力和加速度同时存在，同时消失。 
+	**独立性**：每个力对物体产生的加速度，与是否存在别的力无关或：多个力对同一物体产生的加速度，等于每一个力单独对物体产生的加速度的矢量和。 
+	**矢量性**：牛顿第二定律满足矢量的合成与分解
+
+##### 几种常见的力
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/x2n6D16.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/sA6GyBK.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">匀变速运动的描述
+    </div>
+</center>
+#### 时间积累
+
+**冲量**:
+	力对时间的累积矢量，称为冲量。
+
+**单质点的动量定理**：
+
+$$
+\vec{F}=m\vec{a} \implies \vec{F} dt = d(m \vec{v}) \implies \vec{I} = \int _{t_{1}}^{t_{2}}\vec{F}\, dt = \vec{P}_{2} - \vec{P}_{1} 
+$$
+
+**单质点的动量守恒定理**: 当单质点所受合外力冲量为零时, 其动量为守恒量。
+
+**火箭箭体的动力学方程**
+
+$$
+F = M \frac{dv}{dt}  + u \frac{dM}{dt}
+$$
+
+**火箭箭体在任意时刻的速度为**:
+
+$$
+v = u \ln \frac{M_{0}}{M} - gt
+$$
+
+#### 时空积累
+
+**功**：
+
+$$
+dA = \vec{F} \cdot d \vec{r}
+$$
+
+**功率**：
+
+$$
+P = \frac{dA}{dt} = \frac{\vec{F} \cdot d \vec{r}}{dt} = \vec{F} \cdot \vec{v}
+$$
+
+**弹性势能**：
+
+$$
+E_{p} = \frac{1}{ 2} k x^{2}
+$$
+
+**重力势能**:
+
+$$
+E_{p} = mgh
+$$
+
+**引力势能**:
+
+$$
+E_{p} = -G \frac{Mm}{r}
+$$
+
+**保守力与非保守力**：
+	**保守力**：力对物体所作的功只与位置有关，而与中间过程无关
+		满足条件：$\oint_{c}\vec{F} \cdot d \vec{r} = 0$ 或者 $\nabla \times \vec{F} = 0$
+		保守力等于势能的负梯度
+	**非保守力**: 故功与中间过程有关的力
+
+### 刚体力学
+
+**描述刚体运动的角参量**:
+	1. 角位移：在 t 时间内，物体绕转轴转过的角度，且规定逆时针方向角位移为正，顺时针方向角位移为负。
+	2. 角速度：某一时刻 t，角位移随时间变化的快慢
+	3. 角加速度：某一时刻 t，角速度随时间变化的快慢
+
+**角参量与线参量之间的关系**
+数值大小关系：
+
+$$
+v=R\omega, \ a_{n} = \frac{v^{2}}{R}=R\omega^{2}, \ a_{t} = R \dot{\omega}
+$$
+
+矢量关系：
+
+$$
+\vec{v} = \vec{\omega}\times \vec{r}
+$$
+
+#### 瞬时效应
+
+**力矩**：
+
+$$
+\vec{M} = \vec{r} \times \vec{F_{i}}
+$$
+
+**转动惯量**：
+
+$$
+\sum_{i} \Delta m_{i} r_{i}^{2} = I
+$$
+
+**转动定律**：
+
+$$
+\vec{M} = \vec{r} \times \vec{F_{i}} = \vec{r} \times \left( m_{i} \cdot (a_{t} + a_{n}) \right)  = m_{i} \vec{r} a_{t} = I\dot{\omega}
+$$
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://wuli.wiki/online/2eb4a8aa233263d7.svg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">常见刚体的转动惯量|大学物理 张三慧
+    </div>
+</center>
+
+#### 时间积累 - 刚体的角动量定理
+
+**冲量矩**：
+	力矩在时间上的累计矢量，称为冲量矩
+	$d\vec{J} = \vec{M}dt$ 或者 $\vec{J} = \int_{t_{1}}^{t_{2}}\vec{M} \, dt$
+
+**角动量**：
+	$\vec{L}= I\vec{\omega}$, $\vec{M}=\dot{\vec{L}}$
+
+**角动量守恒定律**：
+	当外力冲量矩的矢量和为零时，刚体的角动量保持不变
+	$I_{2}\omega_{2}=I_{1}\omega_{1}$
+
+#### 时空积累 - 刚体的机械能守恒定律
+
+$$
+A = \int _{\theta_{1}}^{\theta_{2}} \vec{M} \cdot  \, d\vec{\theta} 
+$$
+
+##### 刚体的势能与势能定理
+
+刚体的势能等于将刚体质量全部集中于其质心所得到的质点的势能相等。 
+刚体的势能定理：保守力对刚体所作的功，等于刚体势能增量的负值
+
+**动能定理**：
+
+$$
+\begin{align}
+dA & =  \vec{M} \cdot d\vec{\theta} = I \dot{\omega} \cdot d \vec{\theta} = I \frac{d\omega}{dt} \cdot \omega dt \implies  \\
+dA &  = I \omega d \omega = d\left(  \frac{1}{2 }I \omega^{2} \right)  \\
+A  & = \int _{\omega_{1}}^{\omega_{2}} I \omega \, d\omega = \frac{1}{2}  I \omega^{2}_{2} - \frac{1}{2} I \omega^{2}_{1} 
+\end{align}
+$$
+
+**刚体动能**：
+
+$$
+E_{k} = \frac{1}{2} I \omega^{2}
+$$
+
+### 机械振动
+
+#### 运动学规律
+
+**运动方程**：
+
+$$
+\begin{align}
+x &  = A\cos(\omega t + \varphi); \\
+v & = -A \omega \sin(\omega t + \varphi); \\
+a  & = -A \omega^{2} \cos(\omega t + \varphi); \\ \\
+其中 \omega  & = 2\pi v, v=\frac{1}{T}
+\end{align}
+$$
+
+**旋转矢量法**
+
+#### 动力学规律
+
+**回复力**：
+	做简谐振动物体所受的合外力
+	$F= -kx$
+
+**动力学微分方程**：
+
+$$
+\begin{align}
+F(t)  & = -kx(t); \\
+m\frac{d^{2}x}{dt^{2}}  & = -kx(t); \\
+-m\omega^{2}x(t)  & = -kx(t); \\
+\omega^{2}  & = \frac{k}{m}; \\
+\frac{d^{2}x(t)}{dt^{2}}  & = -\omega^{2} x(t)
+\end{align}
+$$
+
+##### 单摆
+
+**回复力**：
+
+$$
+F=-mg\theta
+$$
+
+**动力学方程**：
+
+$$
+\omega^{2} = \frac{g}{l}, \quad \frac{d^{2}\theta}{dt^{2}} = -\omega^{2}x(t)
+$$
+
+##### 弹簧
+
+**回复力**：
+
+$$
+F= -kx
+$$
+
+**动力学方程**：
+
+$$
+\omega^{2} = \frac{k}{m},\quad \frac{d^{2}x(t)}{dt^{2}} = -\omega^{2}x(t)
+$$
+
+##### 复摆
+**回复力矩**：
+
+$$
+M = -mgh\theta
+$$
+
+**动力学方程**
+
+$$
+\omega^{2} = \frac{mgh}{I}, \quad \frac{d^{2}\theta(t)}{dt^{2}} =- \omega^{2}\theta(t)
+$$
+
+##### LC 振动
+
+$$
+\omega^{2} = \frac{1}{LC}, \quad \frac{d^{2}i(t)}{dt^{2}} = -\omega^{2}i(t)
+$$
+
+#### 能量
+
+$$
+\begin{align}
+E  & = \frac{1}{2} m \omega^{2} A^{2} = \frac{1}{2} kA^{2} \\
+\overline{E_{p}}  & = \frac{1}{2}E, \quad \overline{E_{k} } = \frac{1}{2} E
+\end{align}
+$$
+
+$$
+\begin{align}
+E &  = \frac{1}{2} m \left( \frac{dx}{dt} \right) ^{2} + \frac{1}{2} kx ^{2} \implies  \\
+\dot{E}   & = 0 = m \frac{d^{2}x}{dt^{2}} + kx \\
+能量方程  &  \stackrel{求导}{\implies} 动力学方程
+\end{align}
+$$
+
+#### 特殊的振动
+
+##### 阻尼振动
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/JrhgZbn.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+##### 受迫振动
+在外来策动力作用下的振动
+
+**系统受力**：
+弹性力：$-kx$ 
+阻尼力：$-\frac{\gamma dx}{dt}$
+周期性策动力：$f=F_{0}\cos\omega t$
+
+**振动方程**：
+
+$$
+m \frac{d^{2}x}{dt^{2} } = -kx -\frac{\gamma dx}{dt} + f
+$$
+
+求解:
+
+$$
+\frac{d^{2}x}{dt^{2}} + 2 \frac{\beta dx}{dt} + \omega^{2}_{0}x = h \cos\omega t
+$$
+
+其中 $\omega_{0}^{2}=\frac{k}{m}, \beta = \frac{\gamma}{2m}, h=F_{0}/m$
+
+**位移共振**：
+在一定条件下，振幅出现极大值，振动剧烈的现象。
+
+$$
+\omega_{r}= \sqrt{ \omega^{2}_{0}-2\beta^{2} }
+$$
+
+**共振振幅**：
+
+$$
+A_{r} = \frac{h}{2\beta \sqrt{  \omega^{2}_{0}-\beta^{2} }}
+$$
+
+**速度共振**：
+一定条件下，速度幅 $\omega A$ 极大的现象。
+*速度共振时，速度与策动力同相，一周期内策动力总作正功，此时向系统输入的能量最大*
+
+$$
+\omega_{r} = \omega_{0}, v_{max} = \frac{h}{2\beta}
+$$
+
+##### 振动合成
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/0QsxVdL.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+### 机械波
+
+#### 基本特征
+**形成条件**：
+	存在波源&存在弹性介顶
+
+**分类**：横波、纵波
+
+**机械波运动学方程**：
+
+$$
+y=A\cos\left(  \omega t + \varphi - \frac{2\pi x}{\lambda} \right), k= \frac{2\pi}{\lambda}
+
+$$
+
+**波线**：
+	描述波的传播方向的有向线段
+**波面**：
+	介质中相位相同的点组成的面
+**波前**：
+	第一波面
+
+#### 动力学方程 
+
+$$
+\frac{ \partial^{2} y }{ \partial t^{2} } =a^{2} \frac{ \partial^{2} y }{ \partial x^{2} }
+$$
+
+##### 横波动力学方程
+
+绳的微振动横波：$a^{2}=\frac{T}{\rho}$, $T$ 为绳子的张力
+杆的横向微振动波：$a^{2} =\frac{G}{\rho}$, $G$ 为切变模量
+##### 纵波动力学方程
+
+杆的纵向微振动波：$a^{2}= \frac{Y}{\rho}$, $Y$ 为杨氏弹性模量
+
+#### 能量与能流密度
+动能：
+
+$$
+\begin{align}
+\Delta E_{k}  & = \frac{1}{2} \Delta m v^{2} = \frac{1}{2} \rho \Delta V \left(  \frac{ \partial y }{ \partial t }  \right)^{2}  \\
+ & = \frac{1}{2} \rho \Delta V \omega^{2} A ^{2} \sin ^{2} \omega\left( t- \frac{x}{v} \right)
+\end{align}
+$$
+
+弹性势能：
+
+$$
+\begin{align}
+\Delta E_{p} &  = \frac{1}{2} (弹性模量)(应变)^{2}  \\
+ & = \frac{1}{2} \rho \Delta V \omega^{2} A^{2} \sin ^{2} \omega \left( t- \frac{x}{v} \right) 
+\end{align}
+$$
+
+总的能量为：
+
+$$
+\Delta E = \Delta E_{k} + \Delta E_{p} = \rho \Delta V \omega^{2} A^{2} \sin ^{2} \omega \left( t-\frac{x}{v} \right)
+$$
+
+**能量密度**
+	弹性介质单位体积的能量，称弹性介质的能量密度
+
+$$
+\epsilon = \rho \omega^{2} A^{2} \sin ^{2} \omega \left(  t- \frac{x}{v} \right) 
+$$
+
+**平均能流密度 (波的强度)**：
+
+$$
+\bar{\epsilon} = \frac{1}{T} \int _{0}^{T}\epsilon  \, dt = \frac{1}{2} \rho \omega^{2} A^{2} 
+$$
+
+**单个微元的机械能不守恒，但是平均总机械能守恒**
+
+**声强级**：
+以 $1000Hz$ 时人耳能听到的最小声音对应的波强作为基准 $I_{0}$:
+
+$$
+L = 10 \log_{10} \left( \frac{I}{I_{0}} \right), 单位：分贝 
+$$
+
+#### 波的叠加：
+
+**惠更斯原理**：任一时刻波前上各点都可作为子波的波源，向前发出子波后一时刻各子波的包迹，就是该时刻新波的波前
+
+#### 波的干涉
+
+##### 驻波
+
+相干波，同直线相向传播，同振幅
+**没有能量的单向传播**
+
+$$
+\begin{align}
+y_{1}  & = A \cos \left( \omega t - \frac{2\pi}{\lambda}x \right) ; \\
+y_{2} &  = A \cos \left( \omega t + \frac{2\pi}{\lambda}x \right) ; \\
+y_{1} +y_{2}  & = 2A \left[ \cos \left( \frac{2\pi}{\Lambda}x \right)  \right] \cos \omega t 
+\end{align}
+$$
+
+**波腹**：振幅最大的点
+**波节**：振幅为 0 的点
+
+##### 单波损失
+
+波密 -> 波疏：无损失（波节）
+波疏 -> 波密：有损失（波腹）
+
+#### 多普勒效应
+
+$$
+f_{观} = \frac{v\pm v_{观}}{v\mp v_{源}} f_{静}
+$$
+
+### 狭义相对论
+
+**基本假设**
+1. 相对性原理:
+	*The laws of physics are the same in all inertial reference frames*.
+2. 光速不变原理
+	*The speed of light in empty space is the same in all inertial frames.*
+
+**洛伦兹变换**
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/wDp6xGq.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+#### 速度合成 
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/cLPStAl.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/a58esoL.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+#### 相对论力学
+
+1. $m=\frac{m_{0}}{\sqrt{ 1-\frac{u^{2}}{c^{2}} }}$
+2. $E=mc^{2}, E_{k} = mc^{2} - m_{0}c^{2}, E^{2} = m_{0}^{2}c^{4} + p^{2} c^{2}$
+## 波动光学
+
+### 干涉
+
+**光源的发光特性**
+1. 普通光源: 自发幅射（频率，相位，振动方向，传播方向完全随机）
+2. 激光光源：受激辐射（频率，相位，振动方向，传播方向完全一样）
+
+**两列光波的叠加**
+
+$$
+I =I_{1} + I_{2} +2 \sqrt{  I_{1}I_{2} } \cos\Delta\varphi
+$$
+
+- 非相干光源：$I=I_{1} + I_{2}$
+- 完全相干光源：
+	- $I_{max} =I_{1} +I_{2} +2\sqrt{ I_{1}I_{2} }$
+	- $I_{min}=I_{1}+I_{2}-2\sqrt{ I_{1}I_{2} }$
+
+**相干长度**
+两列波能发生干涉的最大波程差，也是波列长度
+
+**相干时间**：
+光通过相干长度所需时间
+
+**条纹对比度**：
+
+$$
+V = \frac{I_{max} -I_{min}}{I_{max} + I_{min}}
+$$
+
+决定对比度的因素：
+**振幅比、光源的宽度、光源的单色性**
+
+**普通光源获得相干光的途径**：
+	分波面法、分振幅法
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/2lLSL52.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+#### 光程
+
+折射率：$n=\frac{\lambda_{0}}{\lambda_{n}}$
+光程: $L=nd$
+
+#### 双缝干涉
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/NZOQ3LD.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+**光线区域**：$x=\frac{L}{d}m\lambda$
+**暗线区域**：$x=\frac{L}{d}\left( m+\frac{1}{2} \right)\lambda$
+**可见明纹最大级数**： $k_{max} = \lfloor \frac{d}{\lambda} \rfloor$
+*在其中一个单缝放置一个薄镜，干涉条纹会向上移动*
+
+#### Lloyd 镜
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/WnCK9Rz.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+
+#### 薄膜干涉
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/tCtODZP.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/bOmNA66.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/EXWW1Jl.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+#### 迈克尔逊干涉仪
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/uuYqM4f.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+### 衍射
+
+#### 夫琅禾费衍射
+衍射明显程度 $\propto \frac{\lambda}{a}$, $a \gg \lambda$ 时成立，a 与λ接近或者 a < λ时无衍射。
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/dQbenXx.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+**暗条纹中心条件完全一样，亮条纹中心略有误差**
+
+#### 光栅衍射
+
+光栅总缝数越大，明条纹越细越亮，分辨率越高
+
+**光栅常数**
+a 是透光（或反光）部分的宽度 
+b 是不透光（或不反光) 部分的宽度
+
+光栅常数: $d=a+b$
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/kxPLWhz.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+#### 瑞利判据
+
+分辨本领：
+
+$$
+R = \frac{D}{1.22\lambda}
+$$
+
+### 偏振
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/9QBA9Jl.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+    src="https://search.pstatic.net/common?src=https://i.imgur.com/xTAKlWo.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">title
+    </div>
+</center>
+
+
+**光轴**：当光在晶体内沿某个特殊方向传播时不发生双折射，该方向称为晶体的光轴，
+
