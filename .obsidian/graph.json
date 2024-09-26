@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#Word",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#Semantic",
+      "color": {
+        "a": 1,
+        "rgb": 5431497
+      }
+    },
+    {
+      "query": "tag:#Affix",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0.1,
+  "nodeSizeMultiplier": 0.922538475251055,
+  "lineSizeMultiplier": 1.23932497474597,
+  "collapse-forces": false,
+  "centerStrength": 0.278150811099887,
+  "repelStrength": 11.9519876403827,
+  "linkStrength": 0.643234892150455,
+  "linkDistance": 184,
+  "scale": 1.3298919001317402,
+  "close": false
+}

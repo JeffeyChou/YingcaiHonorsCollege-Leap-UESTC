@@ -1,0 +1,29 @@
+{
+  "showInlineTitle": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "showIndentGuide": true,
+  "tabSize": 5,
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/drafts",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./高等代数2-期末复习.md_Attachments",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 84
+  },
+  "readableLineLength": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false,
+  "userIgnoreFilters": [
+    "public/",
+    "quartz/",
+    "node_modules/"
+  ]
+}
