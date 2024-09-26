@@ -18,3 +18,17 @@ $$
 ```
 
 连续两个行间公式之间没有任何文本的话，两个`$$`之间需要空2行。
+
+commit 格式
+
+```
+date: yyyymmdd
+title: commit message
+author: author name
+```
+
+例如
+```
+20240926: update some demo pages -by Jiefeng
+```
+
