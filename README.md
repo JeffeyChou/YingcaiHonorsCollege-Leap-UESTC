@@ -42,11 +42,59 @@ git clone https://github.com/JeffeyChou/YingcaiHonorsCollege-Leap-UESTC.git
 git checkout -b my-branch
 ```
 
-3. Make your changes in Obsidian.
+3. Make your changes in Obsidian and preview changes locally.
+
+3.1 upload notes in Obsidian.
 
 - Open this vault in Obsidian and make your changes. This should create your own profile in the `.obsidian` folder.
 
 - Make your changes in Obsidian on the `content/` folder.
+
+>[!Note]+ Some tips for writing Latex math formulas and rendering using Katex.
+>QuartZ uses Katex to render latex formulas in markdown. In order to correctly render the formula without raising errors, it is preferred to use the following way when writing your latex formulas.
+>1. Inline mode
+>```
+>$A_1=R_0 \cdot Q_0$
+>```
+>Make sure that the two `$` are in the same line.
+>1. Display mode
+>```
+>$$\begin{bmatrix}x & x & x & x & x \\ & x & x & x & x \\ & & x & x & x \\ & & & &     x\end{bmatrix}$$
+>```
+>and
+>```
+>$$
+>A =
+>\begin{bmatrix}
+>2 & 1 & 0 \\
+>1 & 3 & 1 \\
+>0 & 1 & 2 \\
+>\end{bmatrix}
+>$$
+>```
+> are acceptable, just make sure that a) both `$$` are in the same line, or b) place `$$` in a single line separately.
+
+
+
+3.2 deploy website locally.
+
+```
+npm i
+```
+
+```
+npx quartz create
+```
+
+- Make sure to select to select "empty quartz folder" option.
+
+```
+npx quartz build --serve
+```
+
+- This should create a local server to preview your changes.
+
+- This step is necessary since some content would not render correctly in QuartZ server. Please make sure that the pages render in the desired way before make a pull request.
 
 
 4. Commit your changes.

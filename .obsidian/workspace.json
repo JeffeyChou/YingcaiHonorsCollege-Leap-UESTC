@@ -11,8 +11,24 @@
             "id": "110fe4fb9c46f099",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -35,8 +51,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -51,7 +70,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -59,14 +80,17 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 279
+    "width": 404.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "f72322c403567dba",
@@ -83,8 +107,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -92,7 +120,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -100,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -108,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -116,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -124,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -133,6 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +183,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
             }
           },
           {
@@ -151,7 +196,9 @@
               "state": {
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -163,7 +210,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -171,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352
+    "width": 352,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,27 +230,48 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian42-brat:BRAT": false,
-      "edit-history:Open edit history": false,
-      "gemini-assistant:New Gemini chat": false,
-      "omnisearch:Omnisearch": false,
-      "attachment-manager:Toggle visibility of attachment folder": false,
-      "file-cleaner-redux:Clean files": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "26aaba1b6dd0d9ae",
+  "active": "110fe4fb9c46f099",
   "lastOpenFiles": [
-    "content/课程资料/课程笔记/马原/马克思主义基本原理-期末复习提纲.md",
-    "content/课程资料/课程笔记/高等代数/高等代数2-期末复习.md",
-    "content/课程资料/课程笔记/高等代数/高等代数2-期末复习.md.edtz",
-    "content/课程资料/课程笔记/高等代数",
-    "content/课程资料/课程笔记/马原",
+    "public/课程资料/课程笔记/数值分析/Chapter4-Polynomial-Interpolation.html",
+    "public/课程资料/课程笔记/数值分析/Chapter3-System-of-Equation.html",
+    "content/课程资料/课程笔记/数值分析/Chapter4- Polynomial Interpolation.md",
+    "content/课程资料/课程笔记/数值分析/Chapter4-Polynomial Interpolation.md",
+    "content/课程资料/课程笔记/数值分析/Chapter3-System of Equation.md",
+    "public/tags/大M法.html",
+    "public/tags/两阶段法.html",
+    "public/tags/单纯形法.html",
+    "public/tags/线性规划.html",
+    "public/tags/Sherman-Morison公式.html",
+    "public/tags/BFGS公式.html",
+    "public/tags/DFP公式.html",
+    "public/tags/拟牛顿法.html",
+    "public/tags/非线性共轭梯度法.html",
+    "content/课程资料/课程笔记/数值分析/Chapter3 -System of Equation.md",
+    "content/课程资料/课程笔记/数值分析/Chapter1-Fundanentals.md",
+    "content/课程资料/课程笔记/数值分析/Chapter2-Solving nonlinear equations.md",
+    "content/课程资料/课程笔记/数值分析/数值分析-期末考题.md",
+    "content/课程资料/课程笔记/数值分析/Chapter6-Numerical Differentiation and Integration.md",
+    "content/课程资料/课程笔记/数值分析/Chapter7-Eigenvalues and singular values.md",
+    "content/课程资料/课程笔记/数值分析/Chapter5-Least Squares.md",
+    "content/课程资料/课程笔记/大学物理/基础物理-力学-波动光学.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第六章-极限定理.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第四章-随机变量的数字特征.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第八章-参数估计.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第五章-特征函数.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第二章- 随机变量.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第九章-假设检验.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第三章-多维随机变量.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第七章-数理统计.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论第一章-概率论的基本概念.md",
+    "content/课程资料/课程笔记/概率论与数理统计/概率论与数理统计-期末复习指导.md",
+    "content/课程资料/课程笔记/概率论与数理统计/Probability_and_Statistics.md",
+    "content/课程资料/课程笔记/概率论与统计/概率论第一章-概率论的基本概念.md",
+    "content/课程资料/课程笔记/概率论与统计/概率论与数理统计-期末复习指导.md",
+    "content/课程资料/课程笔记/概率论与统计/Probability_and_Statistics.md",
     "Assets/Pasted image 20240630181835.png",
-    "content/drafts/机器学习-期末录音笔记.md",
     "Assets/Pasted image 20240619103207.png",
     "Assets/Pasted image 20240624171208.png",
     "Assets/Pasted image 20240624170339.png",
@@ -210,36 +281,6 @@
     "Assets/1718384651822.jpg",
     "Assets/1718367084890.jpg",
     "Assets/1718366704831.jpg",
-    "content/Homework/概率论作业-第四章+第五章.md",
-    "content/Homework/数值分析-第三次作业.md",
-    "public/Homework/概率论作业-第四章+第五章.md.edtz",
-    "content/Homework/概率论作业-第四章+第五章.md.edtz",
-    "public/Homework/概率论作业-第二章+第三章.md.edtz",
-    "content/Homework/概率论作业-第二章+第三章.md.edtz",
-    "public/Homework/概率论作业-第七章.md.edtz",
-    "content/Homework/概率论作业-第七章.md.edtz",
-    "public/Homework/概率论作业-第一章.md.edtz",
-    "content/Homework/人工智能作业-遗传算法解决背包问题.md",
-    "content/drafts/Homework/人工智能作业.md",
-    "content/Homework/概率论小组作业极限定理.md",
-    "content/Homework/概率论小组作业-数字特征.md",
-    "content/Homework/概率论作业-第四章.md",
-    "content/Homework/概率论作业-第六章.md",
-    "content/Homework/概率论作业-第二章+第三章.md",
-    "content/Homework/概率论作业-第七章.md",
-    "content/Homework/概率论作业-第一章.md",
-    "content/Homework/数学建模第二次作业.md",
-    "content/Homework/数值分析作业-第四次作业.md",
-    "content/Homework/数值分析作业-数值积分.md",
-    "content/Homework/数值分析作业-数值微分.md",
-    "content/Homework/数值分析作业-插值.md",
-    "content/Homework/数值分析作业-拟合和最小二乘法.md",
-    "content/Homework/数值分析作业-对称正定矩阵求解.md",
-    "content/Homework/数值分析-第二次作业-nonlinear equation.md",
-    "content/Homework/数值分析-第一次作业-误差与计数.md",
-    "content/Homework/形势与政策-课程论文.md",
-    "content/Homework/工创-商业计划书.md",
-    "content/Homework/信息论作业3-2.md",
     "Untitled.canvas",
     "Word-Schedule/Day3.canvas",
     "Word-Schedule/Day2.canvas",
